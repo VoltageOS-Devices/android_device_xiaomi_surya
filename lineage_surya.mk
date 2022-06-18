@@ -24,10 +24,6 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_SOONG_NAMESPACES += \
-$(LOCAL_PATH) \
-hardware/qcom-caf/sm8150
-
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
