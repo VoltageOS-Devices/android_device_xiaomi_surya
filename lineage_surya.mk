@@ -40,3 +40,5 @@ RICE_MAINTAINER := Mezaque_Sílver
 
 # gapps build flag, if not defined build type is vanilla
 WITH_GAPPS := false
+
+TARGET_EXCLUDES_AUDIOFX := false
