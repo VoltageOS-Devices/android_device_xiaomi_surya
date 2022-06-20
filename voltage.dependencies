@@ -1,0 +1,12 @@
+[
+  {
+    "remote": "VoltageOS-Devices",
+    "repository": "vendor_xiaomi_surya",
+    "target_path": "vendor/xiaomi/surya"
+  },
+  {
+    "remote": "VoltageOS-Devices",
+    "repository": "kernel_xiaomi_surya",
+    "target_path": "kernel/xiaomi/surya"
+  }
+]
