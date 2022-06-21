@@ -1,7 +1,6 @@
 # surya package version: V12.5.8.0.RJGMIXM, unless stated otherwise
 
 # Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -357,7 +356,6 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
 # Certificate Authority
--vendor/app/CACertService/CACertService.apk
 vendor/lib64/libcacertclient.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
@@ -366,8 +364,6 @@ vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/bin/hvdcp_opti
 
 # CNE
--vendor/app/CneApp/CneApp.apk
--vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/etc/init/cnd.rc
 vendor/lib64/libcne.so
@@ -456,7 +452,6 @@ system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libdpmframework.so
 system_ext/lib64/libdpmtcm.so
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
@@ -485,7 +480,6 @@ vendor/lib64/libtrustedapploader.so
 # DRM widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
@@ -510,7 +504,6 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 # FM
 system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
@@ -524,7 +517,6 @@ vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
 vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
 vendor/lib64/libcdfw.so
 vendor/lib64/libcdfw_remote_api.so
@@ -602,7 +594,6 @@ system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
--system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
@@ -753,12 +744,10 @@ vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 
 # RIL
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrild
 vendor/bin/adpl
 vendor/bin/netmgrd
@@ -906,7 +895,6 @@ vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 
 # Time
--vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
@@ -927,7 +915,6 @@ vendor/firmware/drv2624.rtp
 vendor/firmware/osc_rtp_24K_5s.bin
 
 # WiFi Display
--framework/WfdCommon.jar
 system_ext/bin/wfdservice
 system_ext/etc/init/wfdservice.rc
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml
@@ -971,7 +958,6 @@ system_ext/lib64/libwfduibcsink.so
 system_ext/lib64/libwfduibcsinkinterface.so
 system_ext/lib64/libwfduibcsrc.so
 system_ext/lib64/libwfduibcsrcinterface.so
--system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
