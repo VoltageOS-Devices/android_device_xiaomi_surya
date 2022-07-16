@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "VoltageOS-Devices",
+    "repository": "android_vendor_xiaomi_surya",
+    "target_path": "vendor/xiaomi/surya",
+    "branch": "12l"
+  },
+  {
+    "remote": "VoltageOS-Devices",
+    "repository": "android_kernel_xiaomi_surya",
+    "target_path": "kernel/xiaomi/surya",
+    "branch": "12l"
+  },
+  {
+    "remote": "LineageOS",
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-19.1"
+  }
+]
