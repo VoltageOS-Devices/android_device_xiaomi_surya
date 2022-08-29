@@ -33,6 +33,9 @@
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">22dp</dimen>
 
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_home_handle_width">0dp</dimen>
+
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1030px</dimen>
 
